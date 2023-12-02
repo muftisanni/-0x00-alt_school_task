@@ -1,0 +1,185 @@
+body {
+    font-family: tahoma;
+    background-image: url(../img/bg1.jpeg);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: cover;
+    background-attachment: scroll;
+  }
+  
+  body main {
+    background-color: #f5f5f5;
+    max-width: 100%;
+    width: 1200px;
+    margin: 80px auto;
+    padding: 0 15px;
+    box-sizing: border-box;
+    box-shadow: 2px 6px 20px #503231;
+  }
+  
+  nav {
+    background-color: #dc143c;
+    padding: 12px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+  }
+  
+  nav ul {
+    text-align: center;
+    white-space: nowrap;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  nav li {
+    width: 25%;
+    display: inline-block;
+    font-size: 24px;
+    font-weight: 600;
+  }
+  
+  nav li a {
+    text-decoration: none;
+    color: #f5f5dc;
+  }
+  
+  #signin a{
+    text-decoration: none;
+    font-size: 20px;
+    color: crimson;
+    font-weight: bold;
+  }
+  
+  form,
+  .register,
+  #form {
+    font-family: tahoma;
+    font-size: 22px;
+    color: #2b0202;
+    text-align: center;
+  }
+  
+  #form input {
+    font-family: tahoma;
+    font-size: 24px;
+    color: #2b0202;
+    max-width: 100%;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-radius: 3px solid black;
+    background-color: #f5f5f5;
+    text-align: left;
+  }
+  
+  #form h2 {
+    font-family: tahoma;
+  }
+  
+  #form div.msg {
+    text-align: center;
+    margin-top: 2%;
+    font-family: tahoma;
+    font-weight: 550;
+    /* padding: 0 390px; */
+    max-width: 100%;
+    font-size: 20px;
+  }
+  
+  #form div.msg textarea {
+  padding: 6px;
+  font-size: 0.9em;
+  }
+  
+  section.register {
+    font-family: tahoma;
+    font-size: 15px;
+    color: dimgrey;
+  }
+  
+  section.register a {
+    font-size: 15px;
+    color: #dc143c;
+    font-style: italic;
+  }
+  
+  button {
+    font-family: tahoma;
+    font-weight: bold;
+    padding: 3px 3px;
+    border-radius: 36px;
+    font-size: 18px;
+  }
+  
+  button.submit {
+    color: crimson;
+    font-weight: bold;
+    margin-top: 0.8%;
+  }
+  
+  footer {
+    color: #352506;
+    text-align: center;
+    font-size: 1.1em;
+  }
+  
+  
+  /* HOVER EFFECT */
+  nav li a:hover {
+    text-decoration: navajowhite;
+    padding: 10px;
+    font-size: larger;
+  }
+  img:hover {
+    text-decoration: navajowhite;
+    padding: 10px;
+    border-radius: 25%;
+  }
+  
+  #form input:focus{
+    border: 4px;
+    outline: none;
+  }
+  
+  #form input:valid{
+    border: 1px solid #71d300;
+    border-radius: 26px;
+  }
+  
+  button:hover{
+    text-decoration: navajowhite;
+    padding: 5px;
+    font-size: medium;
+  }
+  
+  a:hover {
+    text-decoration: wavy;
+    padding: 5px;
+    font-size: 25px;
+  }
+  
+  #form div.msg textarea:focus{
+    border: 2px dashed #71d300;
+    outline: none;
+    border-radius: 6%;
+  }
+  
+  @media screen and (max-width: 560px) 
+  {
+  nav ul {
+      text-align: center;
+      white-space: nowrap;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+  
+    nav li {
+      width: 20%;
+      display: inline-block;
+      font-size: 18px;
+      font-weight: 500;
+    }
+  }

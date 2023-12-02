@@ -1,0 +1,213 @@
+*{
+    box-sizing: border-box;
+  }
+  
+  :root{
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  body{
+    background-image: url(/0x01-alt_school_task/img/bg1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .header, .main{
+    /* min-height: 350px; */
+    width: 800px;
+    margin: 10px auto;
+  }
+  
+  .main{
+    margin: 20px auto;
+    background-color: #2C3639;
+    border-radius: 8px;
+    padding: 30px;
+    color: #DCD7C9;
+  }
+  
+  .header, .form h2{
+    text-align: center;
+  }
+  
+  .header h1{
+    color: #A27B5C;
+    font-size: 3rem;
+  }
+  
+  .header p{
+    color:#2C3639;
+    font-size: 1.7rem;
+  }
+  
+  .mode-of-operation h3 {
+    font-size: 1.7rem;
+  }
+  
+  .mode-of-operation li {
+    margin: 10px 0;
+    font-size: 1.2rem;
+  }
+  
+  .form {
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  .form div{
+    width: 100%;
+    margin: 20px 0;
+  }
+  
+  .form label, 
+  .form input, 
+  textarea{
+    display: block;
+    width: 100%;
+  }
+  
+  .form label{
+    color: #A27B5C;
+    margin: 5px 0;
+    font-size: 1.5rem;
+  }
+  
+  .form input,
+  textarea{
+    background-color: #DCD7C9;
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  .form textarea{
+    min-height: 300px;
+  }
+  
+  .form input{
+    height: 60px;
+    border: none;
+  }
+  
+  #submit{
+    background-color: #A27B5C;
+    color: #DCD7C9;
+    cursor: pointer;
+    font-size: 1.3rem;
+  }
+  
+  .share div button:hover,
+  #submit:hover{
+    background-color: #3F4E4F;
+  }
+  
+  #err{
+    color: crimson;
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  
+  
+  /* preview container styling  */
+  .preview-container{
+    display: none;
+    width: 100%;
+  }
+  
+  .preview-container h3{
+    text-align: center;
+    color: whitesmoke;
+  }
+  
+  .preview-paragraph{
+    padding: 20px;
+    border-radius: 5px;
+    min-height: 300px;
+    color: #3F4E4F;
+    background-color: #ffc113;
+    position: relative;
+  }
+  
+  .preview-paragraph i{
+    display: none;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    font-size: 1.2rem;
+  }
+  
+  .preview-paragraph:hover > i{
+    display: inline;
+    color: #DCD7C9;
+  }
+  
+  .share {
+    display: flex;
+  }
+  
+  .share div {
+    width: 100%;
+  }
+  
+  .share div button{
+    padding: 15px 45px;
+    border-radius: 5px;
+    border: none;
+    background-color: #A27B5C;
+    cursor: pointer;
+  }
+  
+  .fab, .fas, .far{
+    font-size: 1.3rem;
+    padding: 0 10px;
+    cursor: pointer;
+  }
+  
+  .social-btn{
+    color: unset;
+    text-decoration: none;
+  }
+  
+  .stat{
+    color: #DCD7C9;
+  }
+  
+  .stat h3{
+    text-align: left;
+  }
+  
+  .stat hr{
+    margin: 0;
+    width: 100px;
+  }
+  .stat p{
+    color:#ffc113;
+  }
+  .stat p span{
+    color:#A27B5C;
+  }
+  
+  .footer{
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* MEDIA QUERRY*/
+  @media screen and (max-width: 750px){
+    .header, .main{
+      min-width: 300px;
+      width: 90%;
+    } 
+    .main{
+      padding: 10px;
+    }
+    .share{
+      flex-direction: column-reverse;
+      gap: 20px;
+    }
+    .share div button{
+      width: 100%;
+      padding: 20px;
+    }
+  }

@@ -1,0 +1,168 @@
+body {
+    font-family: tahoma;
+    background-image: url(../img/Ubuntu.jpeg);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: cover;
+    background-attachment: scroll;
+    font-family: "Source Sans Pro", "Arial", sans-serif;
+  }
+  
+  body main {
+    max-width: 100%;
+    width: 1200px;
+    margin: 80px auto;
+    padding: 0 15px;
+    box-sizing: border-box;
+    box-shadow: 2px 6px 20px #503231;
+  }
+  
+  nav {
+    background-color: #0e0104;
+    padding: 12px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+  }
+  
+  nav ul {
+    text-align: center;
+    white-space: nowrap;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  nav li {
+    width: 25%;
+    display: inline-block;
+    font-size: 24px;
+    font-weight: 600;
+  }
+  
+  nav li a {
+    text-decoration: none;
+    color: #f5f5dc;
+  }
+  
+  form,
+  .register,
+  #form {
+    font-size: 22px;
+    color: #2b0202;
+    text-align: center;
+  }
+  
+  form h2 {
+    color: beige;
+    kerning: 10%;
+    margin-top: 12%;
+  }
+  
+  #form input {
+    font-size: 24px;
+    color: #2b0202;
+    max-width: 100%;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-radius: 10px;
+    background-color: #f5f5f5;
+    text-align: left;
+  }
+  
+  div.gender {
+    color: beige;
+    font-size: bold;
+    margin-top: 1.5%;
+    font-size: 1.1em;
+  }
+  
+  div.gender select {
+    border-color: #dc143c;
+    border-radius: 10%;
+    padding: 6px 12px;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  
+  button {
+    font-family: tahoma;
+    padding: 4px 8px;
+    border-radius: 30px;
+    font-size: 20px;
+  }
+  
+  button.submit {
+    color: crimson;
+    font-weight: bold;
+    margin-top: 1.5%;
+  }
+  
+  div.login {
+    font-size: 15px;
+    color: #c9c6c6;
+  }
+  
+  div.login a {
+    font-size: 15px;
+    color: #dc143c;
+    font-style: italic;
+  }
+  
+  footer {
+    color: wheat;
+    text-align: center;
+    font-size: 1.1em;
+  }
+  
+  /* HOVER EFFECT */
+  nav li a:hover {
+    text-decoration: navajowhite;
+    padding: 10px;
+    font-size: larger;
+  }
+  
+  #form input:focus {
+    border: 4px;
+    outline: none;
+  }
+  
+  #form input:valid {
+    border: 1px solid #71d300;
+    border-radius: 26px;
+  }
+  
+  button:hover {
+    text-decoration: navajowhite;
+    padding: 5px;
+    font-size: medium;
+  }
+  
+  a:hover {
+    text-decoration: wavy;
+    padding: 5px;
+    font-size: 25px;
+  }
+  
+  /* MEDIA QUARY */
+  @media screen and (max-width: 560px) {
+    nav ul {
+      text-align: center;
+      white-space: nowrap;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+  
+    nav li {
+      width: 20%;
+      display: inline-block;
+      font-size: 18px;
+      font-weight: 500;
+    }
+  
+    nav {
+      top: 0;
+    }
+  }

@@ -1,0 +1,61 @@
+/* html {
+  
+  font-family: "Open Sans", sans-serif;
+  
+} */
+
+html {
+    background-color: beige;
+  }
+  
+  /* .header {
+    font-size: 40px;
+    background: -webkit-linear-gradient(red, yellow, green);
+    -webkit-background-clip: text;
+    -webkit-text-full-color: transparent;
+    font-family: "Open Sans", sans-serif;
+  } */
+  
+  .header {
+    font-size: 40px;
+    text-shadow: 2px 5px 8px rgb(84, 121, 12);
+    font-family: "Open Sans", sans-serif;
+    text-indent: bold;
+    margin: 12px 36px;
+  }
+  
+  /* header {
+      font-size: 20px;
+      text-align: center;
+      margin: 0;
+      padding: 20px 0;
+      color: #00539f;
+      text-shadow: 5px 5px 5px black;
+  } */
+  
+  #students {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  tr:hover {
+    background-color: #504423;
+    color: wheat;
+  }
+  
+  #students th {
+    border-collapse: collapse;
+    height: 50px;
+    background-color: red;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    
+  }
+  
+  td {
+    border: 1px solid #233c5d;
+    padding: 8px;
+    text-align: center;
+    justify-content: left;
+    font-family: Arial, Helvetica, sans-serif;
+  }

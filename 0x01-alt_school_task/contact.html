@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/contact.css">
+  <title>Saniwebpage</title>
+</head>
+
+<body>
+
+  <section class="nav-links">
+    <nav>
+      <ul>
+        <li><a href="./about.html">About</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+        <li><a href="./register.html">register</a></li>
+        <li><a href="./login.html">Login</a></li>
+      </ul>
+    </nav>
+  </section>
+
+
+  <main>
+    <article>
+      <h1 id="signin"><a href="#form">Contach us</a></h1>
+      <form action="">
+        <div id="form">
+          <h2>Contact 👤</h2>
+          <form>
+            <label for="name">
+              <input type="text" id="name" name="name" required placeholder="name" />
+            </label>
+            <br /><br />
+            <label for="email">
+              <input type="email" id="email" name=email" required placeholder="email" />
+            </label>
+            <br>
+            <div class="msg">
+              <label class="msg1" for="Message">Your message:<br>
+                <textarea name="user-message" id="message" cols="33" rows="4" placeholder="Type here....." wrap="hard"
+                  required></textarea>
+              </label>
+            </div>
+
+            <div>
+              <label for="priority">Priority:
+                <select name="priority" id="priority" required>
+                  <option value="male">Important</option>
+                  <option value="female">Very important</option>
+                  <option value="not_to_say">Not important</option>
+                </select>
+              </label>
+              <button class="submit">submit</button>
+            </div>
+        </div>
+      </form>
+    </article>
+
+    <section class="register">
+      <div>
+        <p>
+          Don't have an account? <a href="./register.html">Signup here</a>
+        </p>
+      </div><br>
+    </section>
+  </main>
+
+  <div id="footer">
+    <footer>
+      <p class="copyright">Copyright @2023sanni</p>
+    </footer>
+  </div>
+</body>
+
+</html>
